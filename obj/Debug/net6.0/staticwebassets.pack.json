@@ -1,0 +1,409 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ASPNETCore_DB.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ASPNETCore_DB.wcrzcwynsl.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\097b13b9-0f61-4fd9-9ca8-0c364c9fbc4c.jpg",
+      "PackagePath": "staticwebassets\\images\\097b13b9-0f61-4fd9-9ca8-0c364c9fbc4c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\5b1f7de5-3b57-4b4d-b844-940f918c0131.jpg",
+      "PackagePath": "staticwebassets\\images\\5b1f7de5-3b57-4b4d-b844-940f918c0131.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\5d30a291-68a7-48bc-96b2-53c52d89cb0f.jpg",
+      "PackagePath": "staticwebassets\\images\\5d30a291-68a7-48bc-96b2-53c52d89cb0f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\8252e2a3-eaca-4da3-9651-6fdf0057b6c9.jpg",
+      "PackagePath": "staticwebassets\\images\\8252e2a3-eaca-4da3-9651-6fdf0057b6c9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\87f8891f-4cf8-4a12-b344-bf98803c0804.jpg",
+      "PackagePath": "staticwebassets\\images\\87f8891f-4cf8-4a12-b344-bf98803c0804.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\8a8d65d3-9236-4f65-8ad9-5282109eead6.jpg",
+      "PackagePath": "staticwebassets\\images\\8a8d65d3-9236-4f65-8ad9-5282109eead6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\9ff9ea84-d864-4995-a110-6bf051e99bdb.jpg",
+      "PackagePath": "staticwebassets\\images\\9ff9ea84-d864-4995-a110-6bf051e99bdb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\DefaultPic.png",
+      "PackagePath": "staticwebassets\\images\\DefaultPic.png"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\ad1602b0-01e4-49c7-8b9b-6afe87c00764.jpg",
+      "PackagePath": "staticwebassets\\images\\ad1602b0-01e4-49c7-8b9b-6afe87c00764.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\airport.jpg",
+      "PackagePath": "staticwebassets\\images\\airport.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\bank.jpeg",
+      "PackagePath": "staticwebassets\\images\\bank.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\charger.jpeg",
+      "PackagePath": "staticwebassets\\images\\charger.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\clothes.jpg",
+      "PackagePath": "staticwebassets\\images\\clothes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\d14072a2-9045-4471-983d-0d427886275d.jpg",
+      "PackagePath": "staticwebassets\\images\\d14072a2-9045-4471-983d-0d427886275d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\d32b193e-02e5-46b8-a940-bdf7fd40e177.jpg",
+      "PackagePath": "staticwebassets\\images\\d32b193e-02e5-46b8-a940-bdf7fd40e177.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\drone.png",
+      "PackagePath": "staticwebassets\\images\\drone.png"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\fe816bd2-6cf5-405f-99c1-e988d5610999.jpg",
+      "PackagePath": "staticwebassets\\images\\fe816bd2-6cf5-405f-99c1-e988d5610999.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\hoverboard.jpeg",
+      "PackagePath": "staticwebassets\\images\\hoverboard.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\k.jpg",
+      "PackagePath": "staticwebassets\\images\\k.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\keyboard.jpeg",
+      "PackagePath": "staticwebassets\\images\\keyboard.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\lamp.jpeg",
+      "PackagePath": "staticwebassets\\images\\lamp.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\laptop bag.jpg",
+      "PackagePath": "staticwebassets\\images\\laptop bag.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\mouse.jpg",
+      "PackagePath": "staticwebassets\\images\\mouse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\pbank.webp",
+      "PackagePath": "staticwebassets\\images\\pbank.webp"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\phone.jpeg",
+      "PackagePath": "staticwebassets\\images\\phone.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\speaker.jpg",
+      "PackagePath": "staticwebassets\\images\\speaker.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\swatch.jpg",
+      "PackagePath": "staticwebassets\\images\\swatch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\t.jpeg",
+      "PackagePath": "staticwebassets\\images\\t.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\tablet.webp",
+      "PackagePath": "staticwebassets\\images\\tablet.webp"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\verkekker.jpeg",
+      "PackagePath": "staticwebassets\\images\\verkekker.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\vr.jpeg",
+      "PackagePath": "staticwebassets\\images\\vr.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\watch.jpeg",
+      "PackagePath": "staticwebassets\\images\\watch.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\wifi.jpeg",
+      "PackagePath": "staticwebassets\\images\\wifi.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\images\\wireless.jpeg",
+      "PackagePath": "staticwebassets\\images\\wireless.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mosar\\Videos\\ASPNETCore_DB\\221001482\\ASPNETCore_DB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ASPNETCore_DB.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ASPNETCore_DB.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ASPNETCore_DB.props",
+      "PackagePath": "build\\ASPNETCore_DB.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ASPNETCore_DB.props",
+      "PackagePath": "buildMultiTargeting\\ASPNETCore_DB.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ASPNETCore_DB.props",
+      "PackagePath": "buildTransitive\\ASPNETCore_DB.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

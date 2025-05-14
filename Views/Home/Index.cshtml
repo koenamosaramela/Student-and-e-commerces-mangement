@@ -1,8 +1,63 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@if (User.Identity.IsAuthenticated)
+{
+    <div class="alert alert-success text-center my-3">
+        <h4 class="mb-3">User Logged In</h4>
+        <p><strong>User Id:</strong> @ViewData["UserId"]</p>
+        <p><strong>User Name:</strong> @ViewData["UserName"]</p>
+        <p><strong>User Role:</strong> @ViewData["UserRole"]</p>
+    </div>
+}
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4">Welcome to the Unified System Portal</h1>
+        <p class="lead">Access the Student Management System or shop with the BuyAlot Online Store.</p>
+    </div>
+
+    <div class="row">
+        <!-- Student Management System Card -->
+        <div class="col-md-6 mb-4">
+            <div class="card border-primary h-100">
+                <div class="card-header bg-primary text-white">
+                    <h4><i class="bi bi-mortarboard-fill"></i> Student Management System</h4>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        <li>✔ Built with ASP.NET Core MVC</li>
+                        <li>✔ Uses SQLite and Entity Framework Core</li>
+                        <li>✔ Features Code-First database creation</li>
+                        <li>✔ Fully functional CRUD operations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+      
+        <div class="col-md-6 mb-4">
+            <div class="card border-success h-100">
+                <div class="card-header bg-success text-white">
+                    <h4><i class="bi bi-cart4"></i> BuyAlot Online Store</h4>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled">
+                        <li>✔ Shop online with ease</li>
+                        <li>✔ Fast and secure transactions</li>
+                        <li>✔ Browse and purchase products</li>
+                        <li>✔ Seamless shopping experience</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col text-center">
+            <h3 class="mb-3">Get the Full Experience</h3>
+            <p class="mb-4">Register and enroll as a <strong>Student</strong> or <strong>Consumer</strong> to unlock all features of the platform.</p>
+           
+        </div>
+    </div>
 </div>

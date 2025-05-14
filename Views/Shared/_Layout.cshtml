@@ -1,31 +1,118 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿@using Microsoft.AspNetCore.Identity
+@using ASPNETCore_DB.Models
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<!DOCTYPE html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - studentManagement_and__B2S__Consumer</title>
+    <title>@ViewData["Title"] - @(User.IsInRole("Consumer") ? "BuyAlot Online Store" : "ASPNETCore_DB")</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/studentManagement_and__B2S__Consumer.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ASPNETCore_DB.styles.css" asp-append-version="true" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">studentManagement_and__B2S__Consumer</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="ECommerce" asp-action="Home">
+                    @(User.IsInRole("Consumer") ? "BuyAlot Online Store" : "ASPNETCore_DB")
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            @if (User.IsInRole("User"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-controller="Student" asp-action="Create">Enroll as Student</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-controller="Consumer" asp-action="Create">Enroll as Consumer</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-controller="ECommerce" asp-action="Contact">Contact</a>
+                                </li>
+                            }
+
+                            @if (User.IsInRole("Student"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-controller="Student" asp-action="Details">My Profile</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-controller="Student" asp-action="ethuto">Ethuto</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-controller="ECommerce" asp-action="Contact">Contact</a>
+                                </li>
+                            }
+
+                            @if (User.IsInRole("Consumer"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-controller="ECommerce" asp-action="Home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-controller="Consumer" asp-action="Details">My Profile</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-controller="ECommerce" asp-action="Contact">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-controller="ECommerce" asp-action="Index">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-controller="ECommerce" asp-action="AboutUs">About Us</a>
+                                </li>
+                            }
+
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-controller="Student" asp-action="Index">Students Data</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-controller="Consumer" asp-action="Index">Consumers Data</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-controller="Admin" asp-action="Index">Register Admin</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-controller="ECommerce" asp-action="Contact">Contact</a>
+                                </li>
+                            }
+                        }
                     </ul>
+
+                    @if (SignInManager.IsSignedIn(User) && User.IsInRole("Consumer"))
+                    {
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="ECommerce" asp-action="Cart">
+                                    <i class="bi bi-cart"></i> Cart
+                                    <span class="badge bg-primary rounded-pill" id="cartCount">0</span>
+                                </a>
+                            </li>
+                        </ul>
+                    }
+
+                    <partial name="_LoginPartial" />
                 </div>
             </div>
         </nav>
@@ -38,12 +125,53 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2025 - studentManagement_and__B2S__Consumer - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; @DateTime.Now.Year - @(User.IsInRole("Consumer") ? "Online Store" : "ASPNETCore_DB")
+            @if (User.IsInRole("Consumer") || !SignInManager.IsSignedIn(User))
+            {
+                <div class="float-end">
+                    <a href="https://www.linkedin.com/in/koena-mosa-ramela-a18985250/" class="text-muted mx-2" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.facebook.com/" class="text-muted mx-2" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.twitter.com/" class="text-muted mx-2" target="_blank"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.instagram.com/koen.akoena" class="text-muted mx-2" target="_blank"><i class="bi bi-instagram"></i></a>
+                </div>
+            }
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
+    @RenderSection("Styles", required: false)
+
+
+    <style>
+        .footer {
+            background-color: #f8f9fa;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        body {
+            margin-bottom: 60px; 
+        }
+
+        @@media (max-width: 767.98px) {
+            .footer .text-md-end {
+                text-align: left !important;
+                margin-top: 0.5rem;
+            }
+        }
+    </style>
+
+
 </body>
 </html>

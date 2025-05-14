@@ -1,0 +1,384 @@
+﻿@{
+    ViewData["Title"] = "BuyAlot Online Store";
+}
+
+<style>
+    .card-img-top {
+        object-fit: cover;
+        height: 200px;
+        width: 100%;
+    }
+
+    .price-tag {
+        font-weight: bold;
+        color: #0d6efd;
+    }
+
+    .modal-img {
+        max-height: 300px;
+        width: auto;
+    }
+</style>
+
+<div class="container mt-5">
+    <h1 class="text-center mb-5">Welcome to BuyAlot Online Store</h1>
+
+    <div class="row">
+        <!-- Wireless Headphones -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="~/images/wireless.jpeg" class="card-img-top"
+                     data-bs-toggle="modal" data-bs-target="#productModal"
+                     data-product-name="Wireless Headphones"
+                     data-product-price="R 999.99"
+                     data-product-desc="Premium noise-cancelling wireless headphones with 30-hour battery life."
+                     data-product-specs='{"Brand":"SoundMaster","Model":"SM-4500X","Connectivity":"Bluetooth 5.0","Battery Life":"30 hours","Weight":"250g","Warranty":"2 years"}'
+                     alt="Wireless Headphones">
+                <div class="card-body">
+                    <h5 class="card-title">Wireless Headphones</h5>
+                    <p class="card-text">Premium noise-cancelling wireless headphones with 30-hour battery life.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5 class="price-tag">R 999.99</h5>
+                        <span class="badge bg-info">Bestseller</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Smart Watch -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="~/images/watch.jpeg" class="card-img-top"
+                     data-bs-toggle="modal" data-bs-target="#productModal"
+                     data-product-name="Smart Watch"
+                     data-product-price="R 799.99"
+                     data-product-desc="Fitness tracker with heart rate monitor and GPS."
+                     data-product-specs='{"Brand":"FitTech","Model":"FT-200","Display":"AMOLED Touchscreen","Battery Life":"7 days","Water Resistance":"5 ATM","Compatibility":"iOS & Android"}'
+                     alt="Smart Watch">
+                <div class="card-body">
+                    <h5 class="card-title">Smart Watch</h5>
+                    <p class="card-text">Fitness tracker with heart rate monitor and GPS.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5 class="price-tag">R 799.99</h5>
+                        <span class="badge bg-success">New</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bluetooth Speaker -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="~/images/speaker.jpg" class="card-img-top"
+                     data-bs-toggle="modal" data-bs-target="#productModal"
+                     data-product-name="Bluetooth Speaker"
+                     data-product-price="R 499.99"
+                     data-product-desc="Portable waterproof speaker with 20-hour playtime."
+                     data-product-specs='{"Brand":"SoundWave","Model":"SW-100","Battery Life":"20 hours","Waterproof":"IPX7","Connectivity":"Bluetooth 5.0","Weight":"600g"}'
+                     alt="Bluetooth Speaker">
+                <div class="card-body">
+                    <h5 class="card-title">Bluetooth Speaker</h5>
+                    <p class="card-text">Portable waterproof speaker with 20-hour playtime.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5 class="price-tag">R 499.99</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Phone Charger -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="~/images/charger.jpeg" class="card-img-top"
+                     data-bs-toggle="modal" data-bs-target="#productModal"
+                     data-product-name="Phone Charger"
+                     data-product-price="R 149.99"
+                     data-product-desc="Fast-charging USB-C cable with durable braided nylon."
+                     data-product-specs='{"Brand":"PowerPlus","Length":"2m","Connector":"USB-C","Warranty":"1 year","Color":"Black"}'
+                     alt="Phone Charger">
+                <div class="card-body">
+                    <h5 class="card-title">Phone Charger</h5>
+                    <p class="card-text">Fast-charging USB-C cable with durable braided nylon.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5 class="price-tag">R 149.99</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Laptop Backpack -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="~/images/laptop bag.jpg" class="card-img-top"
+                     data-bs-toggle="modal" data-bs-target="#productModal"
+                     data-product-name="Laptop Backpack"
+                     data-product-price="R 399.99"
+                     data-product-desc="Ergonomic backpack with USB charging port."
+                     data-product-specs='{"Brand":"TravelGear","Model":"TG-200","Capacity":"15.6 inch","Material":"Polyester","Color":"Black/Gray","Features":"USB charging port, water resistant"}'
+                     alt="Laptop Backpack">
+                <div class="card-body">
+                    <h5 class="card-title">Laptop Backpack</h5>
+                    <p class="card-text">Ergonomic backpack with USB charging port.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5 class="price-tag">R 399.99</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Wireless Mouse -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="~/images/mouse.jpg" class="card-img-top"
+                     data-bs-toggle="modal" data-bs-target="#productModal"
+                     data-product-name="Wireless Mouse"
+                     data-product-price="R 249.99"
+                     data-product-desc="Ergonomic wireless mouse with silent clicks."
+                     data-product-specs='{"Brand":"ClickTech","Model":"CT-100","Connectivity":"Wireless 2.4GHz","Battery Life":"12 months","DPI":"1600","Color":"Black"}'
+                     alt="Wireless Mouse">
+                <div class="card-body">
+                    <h5 class="card-title">Wireless Mouse</h5>
+                    <p class="card-text">Ergonomic wireless mouse with silent clicks.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5 class="price-tag">R 249.99</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- iPhone 15 Pro Max -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="~/images/phone.jpeg" class="card-img-top"
+                     data-bs-toggle="modal" data-bs-target="#productModal"
+                     data-product-name="iPhone 15 Pro Max"
+                     data-product-price="R 15,000.00"
+                     data-product-desc="Smart phone with the latest features."
+                     data-product-specs='{"Brand":"Apple","Model":"iPhone 15 Pro Max","Storage":"256GB","Display":"6.7-inch Super Retina XDR","Camera":"Triple 12MP camera system","Chip":"A16 Bionic"}'
+                     alt="iPhone 15 Pro Max">
+                <div class="card-body">
+                    <h5 class="card-title">iPhone 15 Pro Max</h5>
+                    <p class="card-text">Smart phone with the latest features.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5 class="price-tag">R 15,000.00</h5>
+                        <span class="badge bg-danger">Premium</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hover Board -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="~/images/hoverboard.jpeg" class="card-img-top"
+                     data-bs-toggle="modal" data-bs-target="#productModal"
+                     data-product-name="Hover Board"
+                     data-product-price="R 549.99"
+                     data-product-desc="Hover board electric powered."
+                     data-product-specs='{"Brand":"GlideTech","Model":"GT-300","Max Speed":"10 km/h","Battery Life":"15 km","Weight Limit":"100 kg","Charge Time":"2 hours"}'
+                     alt="Hover Board">
+                <div class="card-body">
+                    <h5 class="card-title">Hover Board</h5>
+                    <p class="card-text">Hover board electric powered.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5 class="price-tag">R 549.99</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Binoculars -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="~/images/verkekker.jpeg" class="card-img-top"
+                     data-bs-toggle="modal" data-bs-target="#productModal"
+                     data-product-name="Binoculars"
+                     data-product-price="R 949.99"
+                     data-product-desc="Make far things look near."
+                     data-product-specs='{"Brand":"EagleEye","Model":"EE-100","Magnification":"10x","Objective Lens":"42mm","Field of View":"340ft/1000yds","Weight":"650g"}'
+                     alt="Binoculars">
+                <div class="card-body">
+                    <h5 class="card-title">Binoculars</h5>
+                    <p class="card-text">Make far things look near.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5 class="price-tag">R 949.99</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Virtual Reality -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="~/images/vr.jpeg" class="card-img-top"
+                     data-bs-toggle="modal" data-bs-target="#productModal"
+                     data-product-name="Virtual Reality"
+                     data-product-price="R 1040.99"
+                     data-product-desc="Immersive VR headset experience."
+                     data-product-specs='{"Brand":"VRMaster","Model":"VR-200","Display":"OLED 1440x1600 per eye","Refresh Rate":"90Hz","Field of View":"110 degrees","Compatibility":"PC & Mobile"}'
+                     alt="Virtual Reality">
+                <div class="card-body">
+                    <h5 class="card-title">Virtual Reality</h5>
+                    <p class="card-text">Immersive VR headset experience.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5 class="price-tag">R 1040.99</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tablet -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="~/images/t.jpeg" class="card-img-top"
+                     data-bs-toggle="modal" data-bs-target="#productModal"
+                     data-product-name="Tablet"
+                     data-product-price="R 1,299.99"
+                     data-product-desc="10-inch Android tablet with HD display and expandable storage."
+                     data-product-specs='{"Brand":"TabTech","Model":"TT-100","Screen":"10.1-inch HD","Storage":"64GB (expandable)","OS":"Android 12","Battery":"6000mAh"}'
+                     alt="Tablet">
+                <div class="card-body">
+                    <h5 class="card-title">Tablet</h5>
+                    <p class="card-text">10-inch Android tablet with HD display and expandable storage.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5 class="price-tag">R 1,299.99</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gaming Keyboard -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="~/images/keyboard.jpeg" class="card-img-top"
+                     data-bs-toggle="modal" data-bs-target="#productModal"
+                     data-product-name="Gaming Keyboard"
+                     data-product-price="R 599.99"
+                     data-product-desc="RGB backlit mechanical keyboard with customizable keys."
+                     data-product-specs='{"Brand":"KeyMaster","Model":"KM-300","Switch Type":"Mechanical (Red)","Backlight":"RGB","Anti-Ghosting":"Full N-Key Rollover","Connectivity":"Wired USB"}'
+                     alt="Gaming Keyboard">
+                <div class="card-body">
+                    <h5 class="card-title">Gaming Keyboard</h5>
+                    <p class="card-text">RGB backlit mechanical keyboard with customizable keys.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5 class="price-tag">R 599.99</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Drone -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="~/images/drone.png" class="card-img-top"
+                     data-bs-toggle="modal" data-bs-target="#productModal"
+                     data-product-name="Drone"
+                     data-product-price="R 1,799.99"
+                     data-product-desc="Quadcopter with HD camera and GPS tracking."
+                     data-product-specs='{"Brand":"SkyMaster","Model":"SM-500","Camera":"4K UHD","Flight Time":"30 minutes","Range":"5 km","GPS":"Yes"}'
+                     alt="Drone">
+                <div class="card-body">
+                    <h5 class="card-title">Drone</h5>
+                    <p class="card-text">Quadcopter with HD camera and GPS tracking.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5 class="price-tag">R 1,799.99</h5>
+                        <span class="badge bg-warning text-dark">Popular</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LED Desk Lamp -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="~/images/lamp.jpeg" class="card-img-top"
+                     data-bs-toggle="modal" data-bs-target="#productModal"
+                     data-product-name="LED Desk Lamp"
+                     data-product-price="R 199.99"
+                     data-product-desc="Touch-sensitive lamp with adjustable brightness and USB charging."
+                     data-product-specs='{"Brand":"LightTech","Model":"LT-100","Brightness":"5 levels","Color Temp":"3000K-6000K","USB Port":"1x USB-A","Power Source":"AC Adapter"}'
+                     alt="LED Desk Lamp">
+                <div class="card-body">
+                    <h5 class="card-title">LED Desk Lamp</h5>
+                    <p class="card-text">Touch-sensitive lamp with adjustable brightness and USB charging.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5 class="price-tag">R 199.99</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Power Bank -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img src="/images/bank.jpeg" class="card-img-top"
+                     data-bs-toggle="modal" data-bs-target="#productModal"
+                     data-product-name="Power Bank"
+                     data-product-price="R 299.99"
+                     data-product-desc="10,000mAh portable charger with dual USB output."
+                     data-product-specs='{"Brand":"PowerPlus","Capacity":"10,000mAh","Output Ports":"2 USB","Input":"Micro USB","Weight":"220g","Warranty":"1 year"}'
+                     alt="Power Bank">
+                <div class="card-body">
+                    <h5 class="card-title">Power Bank</h5>
+                    <p class="card-text">10,000mAh portable charger with dual USB output.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5 class="price-tag">R 299.99</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product Modal -->
+<div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="productModalLabel">Product Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img id="modalProductImage" src="" class="img-fluid modal-img mb-3" alt="Product Image">
+                <h3 id="modalProductName"></h3>
+                <div class="price-tag mb-2" id="modalProductPrice"></div>
+                <p id="modalProductDesc" class="mb-3"></p>
+
+                <h5>Specifications</h5>
+                <table class="table table-bordered" id="modalProductSpecs">
+                    <!-- Will be populated by JavaScript -->
+                </table>
+
+                <button class="btn btn-primary mt-3 w-100">
+                    <i class="bi bi-cart-plus"></i> Add to Cart
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Initialize modal with product data
+        document.getElementById('productModal').addEventListener('show.bs.modal', function(event) {
+            const button = event.relatedTarget;
+
+            // Set basic product info
+            document.getElementById('modalProductName').textContent = button.getAttribute('data-product-name');
+            document.getElementById('modalProductPrice').textContent = button.getAttribute('data-product-price');
+            document.getElementById('modalProductDesc').textContent = button.getAttribute('data-product-desc');
+            document.getElementById('modalProductImage').src = button.getAttribute('src');
+
+            // Parse and display specifications
+            const specs = JSON.parse(button.getAttribute('data-product-specs'));
+            const specsTable = document.getElementById('modalProductSpecs');
+            specsTable.innerHTML = '';
+
+            for (const [key, value] of Object.entries(specs)) {
+                const row = document.createElement('tr');
+                row.innerHTML = `<td><strong>${key}</strong></td><td>${value}</td>`;
+                specsTable.appendChild(row);
+            }
+        });
+    </script>
+}

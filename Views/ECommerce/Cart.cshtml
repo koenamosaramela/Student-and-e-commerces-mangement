@@ -1,0 +1,111 @@
+﻿@{
+    ViewData["Title"] = "Your Shopping Cart";
+}
+
+<div class="container mt-5">
+    <h1>Your Shopping Cart</h1>
+
+    <div class="row">
+
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row mb-3 align-items-center">
+                        <div class="col-md-2">
+                            <img src="~/images/wireless.jpeg" class="img-fluid rounded" alt="Wireless Headphones">
+                        </div>
+                        <div class="col-md-6">
+                            <h5>Wireless Headphones</h5>
+                            <p class="text-muted">Premium noise-cancelling wireless headphones</p>
+                        </div>
+
+                        <div class="col-md-2 text-end">
+                            <h5>R 999.99</h5>
+                            <button class="btn btn-sm btn-outline-danger">Remove</button>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="row mb-3 align-items-center">
+                        <div class="col-md-2">
+                            <img src="~/images/swatch.jpg" class="img-fluid rounded" alt="Smart Watch">
+                        </div>
+                        <div class="col-md-6">
+                            <h5>Smart Watch</h5>
+                            <p class="text-muted">Fitness tracker with heart rate monitor</p>
+                        </div>
+
+                        <div class="col-md-2 text-end">
+                            <h5>R 4,599.98</h5>
+                            <button class="btn btn-sm btn-outline-danger">Remove</button>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="row mb-3 align-items-center">
+                        <div class="col-md-2">
+                            <img src="~/images/speaker.jpg" class="img-fluid rounded" alt="Bluetooth Speaker">
+                        </div>
+                        <div class="col-md-6">
+                            <h5>Bluetooth Speaker</h5>
+                            <p class="text-muted">Portable waterproof speaker</p>
+                        </div>
+                      
+                        <div class="col-md-2 text-end">
+                            <h5>R 499.99</h5>
+                            <button class="btn btn-sm btn-outline-danger">Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">Order Summary</h5>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex justify-content-between mb-2">
+                        <span>Subtotal (3 items):</span>
+                        <strong>R 7,099.96</strong>
+                    </div>
+                    <div class="d-flex justify-content-between mb-2">
+                        <span>Shipping:</span>
+                        <strong>R 99.00</strong>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>Tax:</span>
+                        <strong>R 434.99</strong>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between fw-bold fs-5">
+                        <span>Total:</span>
+                        <strong>R 8,633.95</strong>
+                    </div>
+
+                    <a href="#" class="btn btn-primary w-100 mt-3">Proceed to Checkout</a>
+                    <a href="/ECommerce" class="btn btn-outline-secondary w-100 mt-2">Continue Shopping</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .card {
+            box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+        }
+
+        .quantity-input {
+            width: 70px;
+        }
+
+        img {
+            max-height: 100px;
+            object-fit: cover;
+        }
+    </style>
+}
+

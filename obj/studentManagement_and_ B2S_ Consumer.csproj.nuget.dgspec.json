@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mosar\\OneDrive\\Documents\\WBA\\studentManagement_and_ B2S_ Consumer\\studentManagement_and_ B2S_ Consumer.csproj": {}
+    "C:\\Users\\mosar\\OneDrive\\Documents\\GitHub\\Student-and-e-commerces-mangement\\studentManagement_and_ B2S_ Consumer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mosar\\OneDrive\\Documents\\WBA\\studentManagement_and_ B2S_ Consumer\\studentManagement_and_ B2S_ Consumer.csproj": {
+    "C:\\Users\\mosar\\OneDrive\\Documents\\GitHub\\Student-and-e-commerces-mangement\\studentManagement_and_ B2S_ Consumer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mosar\\OneDrive\\Documents\\WBA\\studentManagement_and_ B2S_ Consumer\\studentManagement_and_ B2S_ Consumer.csproj",
+        "projectUniqueName": "C:\\Users\\mosar\\OneDrive\\Documents\\GitHub\\Student-and-e-commerces-mangement\\studentManagement_and_ B2S_ Consumer.csproj",
         "projectName": "studentManagement_and_ B2S_ Consumer",
-        "projectPath": "C:\\Users\\mosar\\OneDrive\\Documents\\WBA\\studentManagement_and_ B2S_ Consumer\\studentManagement_and_ B2S_ Consumer.csproj",
+        "projectPath": "C:\\Users\\mosar\\OneDrive\\Documents\\GitHub\\Student-and-e-commerces-mangement\\studentManagement_and_ B2S_ Consumer.csproj",
         "packagesPath": "C:\\Users\\mosar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mosar\\OneDrive\\Documents\\WBA\\studentManagement_and_ B2S_ Consumer\\obj\\",
+        "outputPath": "C:\\Users\\mosar\\OneDrive\\Documents\\GitHub\\Student-and-e-commerces-mangement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

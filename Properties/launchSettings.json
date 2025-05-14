@@ -3,16 +3,16 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:14598",
-      "sslPort": 44320
+      "applicationUrl": "http://localhost:53109",
+      "sslPort": 44378
     }
   },
   "profiles": {
-    "studentManagement_and__B2S__Consumer": {
+    "ASPNETCore_DB": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7063;http://localhost:5063",
+      "applicationUrl": "https://localhost:7076;http://localhost:5205",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
